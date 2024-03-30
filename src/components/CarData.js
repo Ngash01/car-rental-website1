@@ -1,19 +1,21 @@
-import Golf6 from "../images/cars-big/golf6.jpg";
+import Golf6 from "../images/cars-big/volkswagen-golf-r.jpeg";
 import AudiA1 from "../images/cars-big/audia1.jpg";
-import Toyota from "../images/cars-big/toyotacamry.jpg";
+import AudiA7 from "../images/cars-big/audia7-line.jpeg";
+import ToyotaCamry from "../images/cars-big/Toyota-camry2020.png";
 import Bmw320 from "../images/cars-big/bmw320.jpg";
-import Benz from "../images/cars-big/benz.jpg";
-import Passat from "../images/cars-big/passatcc.jpg";
+import Bmw3series from "../images/cars-big/bmw-3-series.png";
+import Benz from "../images/cars-big/Mercedes-gle.png";
+import Crown from "../images/cars-big/Toyota-Crown.png";
 
 export const CAR_DATA = [
   [
     {
-      name: "VW Golf 6",
+      name: "VW Golf MK7.5",
       price: "37",
       img: Golf6,
       model: "Golf 6",
       mark: "Volkswagen",
-      year: "2008",
+      year: "2020",
       doors: "4/5",
       air: "Yes",
       transmission: "Manual",
@@ -22,9 +24,9 @@ export const CAR_DATA = [
   ],
   [
     {
-      name: "Audi A1 S-Line",
+      name: "Audi A7 S-Line",
       price: "45",
-      img: AudiA1,
+      img: AudiA7,
       model: "Audi",
       mark: "A1",
       year: "2012",
@@ -38,10 +40,10 @@ export const CAR_DATA = [
     {
       name: "Toyota Camry",
       price: "30",
-      img: Toyota,
+      img: ToyotaCamry,
       model: "Camry",
       mark: "Toyota",
-      year: "2006",
+      year: "2021",
       doors: "4/5",
       air: "Yes",
       transmission: "Automatic",
@@ -52,24 +54,24 @@ export const CAR_DATA = [
     {
       name: "BMW 320 ModernLine",
       price: "35",
-      img: Bmw320,
+      img: Bmw3series,
       model: "320",
       mark: "BMW",
-      year: "2012",
+      year: "2019",
       doors: "4/5",
       air: "Yes",
-      transmission: "Manual",
+      transmission: "Automatic",
       fuel: "Diesel",
     },
   ],
   [
     {
-      name: "Mercedes-Benz GLK",
+      name: "Mercedes-Benz GLE",
       price: "50",
       img: Benz,
-      model: "Benz GLK",
+      model: "Benz GLE",
       mark: "Mercedes",
-      year: "2006",
+      year: "2017",
       doors: "4/5",
       air: "Yes",
       transmission: "Manual",
@@ -78,11 +80,11 @@ export const CAR_DATA = [
   ],
   [
     {
-      name: "VW Passat CC",
+      name: "Toyota Crown",
       price: "25",
-      img: Passat,
-      model: "Passat CC",
-      mark: "Volkswagen",
+      img: Crown,
+      model: "Crown RS",
+      mark: "Toyota",
       year: "2008",
       doors: "4/5",
       air: "Yes",

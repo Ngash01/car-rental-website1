@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import CarAudi from "../images/cars-big/audia1.jpg";
-import CarGolf from "../images/cars-big/golf6.jpg";
-import CarToyota from "../images/cars-big/toyotacamry.jpg";
+import CarAudi from "../images/cars-big/audia7-line.jpeg";
+import CarGolf from "../images/cars-big/volkswagen-golf-r.jpeg";
+import CarToyota from "../images/cars-big/Toyota-camry2020.png";
 import CarBmw from "../images/cars-big/bmw320.jpg";
-import CarMercedes from "../images/cars-big/benz.jpg";
-import CarPassat from "../images/cars-big/passatcc.jpg";
+import CarMercedes from "../images/cars-big/Mercedes-gle.png";
+import CarPassat from "../images/cars-big/Toyota-Crown.png";
+import CarMazdaCx5 from "../images/cars-big/mazda-cx-5.jpg"
 import { IconCar, IconInfoCircleFilled, IconX } from "@tabler/icons-react";
 import { IconMapPinFilled } from "@tabler/icons-react";
 import { IconCalendarEvent } from "@tabler/icons-react";
@@ -137,12 +138,15 @@ function BookCar() {
     case "BMW 320 ModernLine":
       imgUrl = CarBmw;
       break;
-    case "Mercedes-Benz GLK":
+    case "Mercedes-Benz GLE":
       imgUrl = CarMercedes;
       break;
-    case "VW Passat CC":
+    case "Toyota Crown":
       imgUrl = CarPassat;
       break;
+    case "Mazda CX-5":
+      imgUrl = CarMazdaCx5;
+      break; 
     default:
       imgUrl = "";
   }
@@ -184,14 +188,15 @@ function BookCar() {
                   </label>
                   <select value={carType} onChange={handleCar}>
                     <option>Select your car type</option>
-                    <option value="Audi A1 S-Line">Audi A1 S-Line</option>
+                    <option value="Audi A1 S-Line">Audi A7 S-Line</option>
                     <option value="VW Golf 6">VW Golf 6</option>
                     <option value="Toyota Camry">Toyota Camry</option>
                     <option value="BMW 320 ModernLine">
                       BMW 320 ModernLine
                     </option>
-                    <option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option>
-                    <option value="VW Passat CC">VW Passat CC</option>
+                    <option value="Mercedes-Benz GLE">Mercedes-Benz GLE</option>
+                    <option value="Toyota Crown">Toyota Crown</option>
+                    <option value="Mazda CX-5">Mazda CX-5</option>
                   </select>
                 </div>
 
@@ -202,26 +207,66 @@ function BookCar() {
                   </label>
                   <select value={pickUp} onChange={handlePick}>
                     <option>Select pick up location</option>
-                    <option>Belgrade</option>
-                    <option>Novi Sad</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                    <option>Nairobi CBD</option>
+                    <option>Westlands</option>
+                    <option>Kasarani</option>
+                    <option>Karen</option>
+                    <option>Rongai</option>
+                    <option>Kitengela</option>
+                    <option>Embakasi</option>
+                    <option>Ngong</option>
+                    <option>Syokimau</option>
+                    <option>Thika</option>
+                    <option>Ruiru</option>
+                    <option>Kahawa West</option>
+                    <option>Donholm</option>
+                    <option>Umoja</option>
+                    <option>Ruai</option>
+                    <option>Utawala</option>
+                    <option>Parklands</option>
+                    <option>Pangani</option>
+
                   </select>
                 </div>
 
                 <div className="box-form__car-type">
                   <label>
-                    <IconMapPinFilled className="input-icon" /> &nbsp; Drop-of{" "}
+                    <IconMapPinFilled className="input-icon" /> &nbsp; Destination{" "}
                     <b>*</b>
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
-                    <option>Select drop off location</option>
-                    <option>Novi Sad</option>
-                    <option>Belgrade</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                    <option>Select destination</option>
+                    <option>Mombasa</option>
+                    <option>Embu</option>
+                    <option>Meru</option>
+                    <option>Nyeri</option>
+                    <option>Naivasha</option>
+                    <option>Nakuru</option>
+                    <option>Eldoret</option>
+                    <option>Nyahururu</option>
+                    <option>Nanyuki</option>
+                    <option>Kisumu</option>
+                    <option>Kisii</option>
+                    <option>Loitoktok</option>
+                    <option>Namanga</option>
+                    <option>Muranga</option>
+                    <option>Homa Bay</option>
+                    <option>Kakamega</option>
+                    <option>Narok</option>
+                    <option>Machakos</option>
+                    <option>Wote</option>
+                    <option>Kitui</option>
+                    <option>Kajiado</option>
+                    <option>Taita Taveta</option>
+                    <option>Voi</option>
+                    <option>Malindi</option>
+                    <option>Lamu</option>
+                    <option>Suswa</option>
+                    <option>Gilgil</option>
+                    <option>Busia</option>
+                    <option>Kampala</option>
+                    <option>Isiolo</option>
+                    <option>Marsabit</option>
                   </select>
                 </div>
 

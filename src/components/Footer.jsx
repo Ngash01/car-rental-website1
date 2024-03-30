@@ -16,7 +16,7 @@ function Footer() {
               </li>
               <li>
                 <a href="tel:123456789">
-                  <IconPhoneCall /> &nbsp; (123) -456-789
+                  <IconPhoneCall /> &nbsp; +254 711 223 444
                 </a>
               </li>
 
@@ -37,7 +37,6 @@ function Footer() {
                   rel="noreferrer"
                   href="https://xpeedstudio.com/"
                 >
-                  Design by XpeedStudio
                 </a>
               </li>
             </ul>
@@ -45,7 +44,7 @@ function Footer() {
             <ul className="footer-content__2">
               <li>Company</li>
               <li>
-                <a href="#home">New York</a>
+                <a href="#home">Nairobi</a>
               </li>
               <li>
                 <a href="#home">Careers</a>

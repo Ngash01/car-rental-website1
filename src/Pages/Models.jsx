@@ -1,11 +1,11 @@
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
-import CarImg1 from "../images/cars-big/audi-box.png";
-import CarImg2 from "../images/cars-big/golf6-box.png";
-import CarImg3 from "../images/cars-big/toyota-box.png";
-import CarImg4 from "../images/cars-big/bmw-box.png";
-import CarImg5 from "../images/cars-big/benz-box.png";
-import CarImg6 from "../images/cars-big/passat-box.png";
+import CarImg1 from "../images/cars-big/audia7-line.jpeg";
+import CarImg2 from "../images/cars-big/volkswagen-golf-r.jpeg";
+import CarImg3 from "../images/cars-big/Toyota-camry2020.png";
+import CarImg4 from "../images/cars-big/bmw-3-series.png";
+import CarImg5 from "../images/cars-big/Mercedes-gle.png";
+import CarImg6 from "../images/cars-big/Toyota-Crown.png";
 import { Link } from "react-router-dom";
 import { IconCar, IconPhone, IconStar } from "@tabler/icons-react";
 
@@ -22,7 +22,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>Audi A1</p>
+                      <p>Audi A7</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -32,7 +32,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$45</h4>
+                      <h4>9,000/=</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -51,7 +51,7 @@ function Models() {
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollTo(0, 0)} to="/">
+                    <Link onClick={() => window.scrollTo(0, 700)} to="/">
                       Book Ride
                     </Link>
                   </div>
@@ -75,7 +75,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$37</h4>
+                      <h4>7,500/=</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -94,7 +94,7 @@ function Models() {
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollTo(0, 0)} to="/">
+                    <Link onClick={() => window.scrollTo(0, 700)} to="/">
                       Book Ride
                     </Link>
                   </div>
@@ -108,7 +108,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>Toyota</p>
+                      <p>Camry</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -118,7 +118,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$30</h4>
+                      <h4>6,500/=</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -137,7 +137,7 @@ function Models() {
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollTo(0, 0)} to="/">
+                    <Link onClick={() => window.scrollTo(0, 700)} to="/">
                       Book Ride
                     </Link>
                   </div>
@@ -161,7 +161,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$35</h4>
+                      <h4>8,500/=</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -180,7 +180,7 @@ function Models() {
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollTo(0, 0)} to="/">
+                    <Link onClick={() => window.scrollTo(0, 700)} to="/">
                       Book Ride
                     </Link>
                   </div>
@@ -204,26 +204,26 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$50</h4>
+                      <h4>15,000/=</h4>
                       <p>per day</p>
                     </div>
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; Benz GLK
+                      <IconCar /> &nbsp; Benz GLE
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <IconCar />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Manual
+                      <IconCar /> &nbsp; Automatic
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <IconCar />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollTo(0, 0)} to="/">
+                    <Link onClick={() => window.scrollTo(0, 700)} to="/">
                       Book Ride
                     </Link>
                   </div>
@@ -237,7 +237,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>VW Passat</p>
+                      <p>Crown</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -247,7 +247,7 @@ function Models() {
                       </span>
                     </div>
                     <div className="models-div__box__descr__name-price__price">
-                      <h4>$25</h4>
+                      <h4>7,000/=</h4>
                       <p>per day</p>
                     </div>
                   </div>
@@ -266,7 +266,7 @@ function Models() {
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
-                    <Link onClick={() => window.scrollTo(0, 0)} to="/">
+                    <Link onClick={() => window.scrollTo(0, 700)} to="/">
                       Book Ride
                     </Link>
                   </div>
@@ -282,7 +282,7 @@ function Models() {
               <h2>Book a car by getting in touch with us</h2>
               <span>
                 <IconPhone width={40} height={40} />
-                <h3>(123) 456-7869</h3>
+                <h3>+254711222333</h3>
               </span>
             </div>
           </div>

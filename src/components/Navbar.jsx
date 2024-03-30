@@ -40,9 +40,9 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="/team">
+              {/* <Link onClick={openNav} to="/team"> */}
                 Our Team
-              </Link>
+              {/* </Link> */}
             </li>
             <li>
               <Link onClick={openNav} to="/contact">
@@ -86,9 +86,9 @@ function Navbar() {
             </li>
             <li>
               {" "}
-              <Link className="team-link" to="/team">
+              {/* <Link className="team-link" to="/team">
                 Our Team
-              </Link>
+              </Link> */}
             </li>
             <li>
               {" "}

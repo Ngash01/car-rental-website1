@@ -47,7 +47,7 @@ function PickCar() {
                     btnID("btn2");
                   }}
                 >
-                  VW Golf 6
+                  VW Golf GTI MK7.5
                 </button>
                 <button
                   className={`${coloringButton("btn3")}`}
@@ -77,7 +77,7 @@ function PickCar() {
                     btnID("btn5");
                   }}
                 >
-                  Mercedes-Benz GLK
+                  Mercedes-Benz GLE
                 </button>
                 <button
                   className={`${coloringButton("btn6")}`}
@@ -87,7 +87,7 @@ function PickCar() {
                     btnID("btn6");
                   }}
                 >
-                  VW Passat CC
+                  Toyota Crown
                 </button>
               </div>
 

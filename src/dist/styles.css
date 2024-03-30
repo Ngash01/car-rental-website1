@@ -360,6 +360,7 @@ body {
   right: 0;
   width: 65%;
   margin-top: 5rem;
+  border-radius: 10px;
 }
 
 @media (max-width: 800px) {

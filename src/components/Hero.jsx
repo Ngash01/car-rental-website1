@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import BgShape from "../images/hero/hero-bg.png";
 import HeroCar from "../images/hero/main-car.png";
+import CarMazdaCx5 from "../images/cars-big/mazda-cx-5.jpg"
 import { useEffect, useState } from "react";
 import { IconChevronRight, IconCircleCheck } from "@tabler/icons-react";
 
@@ -48,9 +49,9 @@ function Hero() {
               </p>
               <div className="hero-content__text__btns">
                 <Link
-                  onClick={bookBtn}
+                  
                   className="hero-content__text__btns__book-ride"
-                  to="/"
+                  to="/models"
                 >
                   Book Ride &nbsp; <IconCircleCheck />
                 </Link>
@@ -62,7 +63,7 @@ function Hero() {
 
             {/* img */}
             <img
-              src={HeroCar}
+              src={CarMazdaCx5}
               alt="car-img"
               className="hero-content__car-img"
             />
